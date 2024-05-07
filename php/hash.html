@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="volver">
+        <a href="../index.html">
+            <img src="styles/asets/home.svg" alt="">
+        </a>
+    </div>
+    <div class="contain">
+        <img src="styles/asets/hash.svg" alt="">
+        <form class="formulario" name="formulario" method="post" action="hashSave.php" enctype="multipart/form-data">
+            <input type="text" name="nombreA" placeholder="Nombre">
+            <input type="text" name="descripcionA" placeholder="Descripcion">
+            <input type="file" name="archivo" accept=".pdf,.jpg,.png,.doc" multiple />
+            <br>
+            <input type="password" name="clave" placeholder="clave">
+            <br>
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+</body>
+
+</html>

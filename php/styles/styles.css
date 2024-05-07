@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --morado: #9400FF;
+    --moradoO: #27005D;
+    --azul: #AED2FF;
+    --azulC: #E4F1FF;
+}
+
+body {
+    background-color: var(--azulC);
+}
+
+.volver {
+    width: 10%;
+    margin: 20px;
+    display: flex;
+}
+
+.volver a {
+    width: 70px;
+    height: 70px;
+    background-color: var(--morado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.volver a img {
+    width: 75%;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+}
+
+.container ul {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container ul li {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: var(--morado);
+    border-radius: 15px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain img {
+    width: 7%;
+    background-color: var(--morado);
+    margin-bottom: 15px;
+    border-radius: 35%;
+}
+
+.formulario {
+    width: 32%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid var(--morado);
+    background-color: var(--azul);
+}
+
+.formulario input[type="text"] {
+    width: 65%;
+    height: 30px;
+    margin-bottom: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--morado);
+    color: var(--moradoO);
+    font-size: 20px;
+}
+
+.formulario input[type="password"] {
+    width: 25%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--morado);
+    color: var(--moradoO);
+    font-size: 15px;
+}
+
+.formulario input[type="file"] {
+    height: 3 0px;
+    border: none;
+    font-size: 15px;
+    background-color: var(--moradoO);
+    color: white;
+    border-radius: 7px;
+}
+
+.formulario input[type="submit"] {
+    width: 25%;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background-color: var(--moradoO);
+    color: white;
+    border-radius: 15px;
+}
+
+.contained {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contained img {
+    width: 7%;
+    background-color: var(--morado);
+    margin-bottom: 15px;
+    border-radius: 35%;
+}
+
+.contained .show {
+    width: 30%;
+    background-color: var(--azul);
+    border: 2px solid var(--morado);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contained .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.contained .text h2,
+p {
+    margin-left: 15px;
+}
