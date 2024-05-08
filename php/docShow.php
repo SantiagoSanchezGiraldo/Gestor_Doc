@@ -39,6 +39,9 @@
                 <h2>Fecha: </h2>
                 <p><?php echo $fila['fecha']; ?></p>
             </div>
+            <a href="descarga.php?id=<?php echo $fila['id']; ?>">
+                <img src="styles/asets/dowload.svg" alt="">
+            </a>
         </div>
         <?php endwhile; ?>
     </div>

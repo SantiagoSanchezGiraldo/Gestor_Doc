@@ -168,6 +168,12 @@ body {
     justify-content: start;
     align-items: center;
 }
+.contained .show a{
+    margin-left: 80%;
+}
+.contained .show a img{
+    width: 35px;
+}
 
 .contained .text h2,
 p {
